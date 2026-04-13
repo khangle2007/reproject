@@ -12,17 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Reproject">
         <activity
-            android:name=".info"
+            android:name=".verify"
             android:exported="false" />
         <activity
-            android:name=".findingredient"
+            android:name=".register"
             android:exported="false" />
-        <activity
-            android:name=".find"
-            android:exported="false"
-            android:windowSoftInputMode="stateAlwaysVisible" />
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".info"
+            android:exported="true" />
+        <activity
+            android:name=".findingredient"
+            android:exported="true" />
+        <activity
+            android:name=".find"
+            android:exported="true"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name=".login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
